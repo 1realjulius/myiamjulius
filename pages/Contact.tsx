@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import memojiCall from "../public/Assets/img/me/Memoji-call.png";
 import memojiStand from "../public/Memoji-Call.png";
 import Head from "next/head";
 import MainHeader from "../components/header-section";
@@ -16,8 +15,6 @@ export default function Contact() {
   const mytoday = mm + dd + yyyy;
 
   const [SubmitBtn, setSubmitBtn] = useState("Submit");
-  const [wIsChecked, setWIsChecked] = useState(false);
-  const [bIsChecked, setBIsChecked] = useState(false);
   const [senderFName, setSenderFName] = useState("");
   const [senderLName, setSenderLName] = useState("");
   const [senderEmail, setSenderEmail] = useState("");
