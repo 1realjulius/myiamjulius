@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://iamjulius.com
+
+# Sitemaps
+Sitemap: https://iamjulius.com/sitemap.xml

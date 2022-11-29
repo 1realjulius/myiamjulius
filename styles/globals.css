@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "PolySansBulky";
+    src: url("../public/Fonts/PolySans-Bulky.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "PolySansNeutral";
+    src: url("../public/Fonts/PolySans-Neutral.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "NanumPenScript";
+    src: url("../public/Fonts/Nanum-Pen-Script.woff2") format("woff2");
+  }
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+  label {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+  input {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+.text-outline {
+  @apply cursor-default text-6xl text-[#f7f2f2] hover:text-black hover:transition-colors hover:delay-150 hover:ease-linear;
+  text-indent: 1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: -0.5;
+}
