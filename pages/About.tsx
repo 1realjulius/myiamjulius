@@ -6,6 +6,7 @@ import MainHeader from "../components/header-section";
 import ParallaxText from "../components/paralaxScroll";
 import myPicture from "../public/Assets/img/me/Julius_Eghan.jpg";
 import memojicall from "../public/Memoji-Call.png";
+import behanceLogo from "../public/Assets/img/behance-logo.svg";
 
 export default function About() {
   const WorkNumbers = [
@@ -26,6 +27,16 @@ export default function About() {
       name: "Instagram",
       icon: <Instagram size={24} strokeWidth={3} />,
       link: "https://www.instagram.com/juliuseghan_/",
+    },
+    {
+      id: 3,
+      name: "Behance",
+      icon: (
+        <span className="h-[28px] w-[28px]">
+          <Image src={behanceLogo} alt="behance-logo" className="" />
+        </span>
+      ),
+      link: "https://www.behance.net/iamjulius",
     },
   ];
 
@@ -118,7 +129,7 @@ export default function About() {
                 </span>{" "}
                 from <span className="text-[#828282]">Ghana</span>.
               </h1>
-              <div className="flex flex-row items-center justify-center space-x-4 py-6 text-2xl md:justify-start">
+              <div className="flex flex-col items-center justify-center space-y-4 py-6 text-2xl md:flex-row md:justify-start md:space-y-0 md:space-x-4">
                 {Socials.map((s) => (
                   <div
                     key={s.id}
