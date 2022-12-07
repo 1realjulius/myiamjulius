@@ -2,7 +2,7 @@ export default function CustomBtns() {
   return (
     <div className="py-20 px-6 ">
       <div>
-        <h1>Animation Buttons</h1>
+        <h1>Animation Buttons this is nice</h1>
         <p>Hover us and enjoy the satisfying neumorphic animation designs!</p>
         <div className="frame">
           <button className="custom-btn btn-1">btn 1</button>

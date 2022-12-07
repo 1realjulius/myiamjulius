@@ -196,8 +196,6 @@ export default function Audience() {
         <div>
           <SocialTooltips />
         </div>
-        {/* confetti btn */}
-        <div></div>
       </div>
       <div>
         <Footer />
