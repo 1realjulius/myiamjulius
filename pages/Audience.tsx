@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import Head from "next/head";
 import { useState } from "react";
+import CustomBtns from "../components/custom-btns";
+import SocialTooltips from "../components/custom-social-tootips";
 import Footer from "../components/footer-section";
 import MainHeader from "../components/header-section";
 
@@ -143,8 +145,9 @@ export default function Audience() {
         </div>
         {/* triail Mode text outline */}
         <div className="py-10">
-          <div className=" flex flex-col items-start px-10">
+          <div className=" flex flex-col items-start px-10 ">
             <p className="px-8 text-sm">This is an outline text</p>
+            <div></div>
             <h1 className="text-outline px-2 font-PolySansBulky">
               Hello Julius
             </h1>
@@ -185,6 +188,16 @@ export default function Audience() {
             </div>
           </div>
         </div>
+        {/* custom btns */}
+        <div>
+          <CustomBtns />
+        </div>
+        {/* socil tooltips */}
+        <div>
+          <SocialTooltips />
+        </div>
+        {/* confetti btn */}
+        <div></div>
       </div>
       <div>
         <Footer />

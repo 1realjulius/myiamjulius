@@ -20,7 +20,8 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/Projects/[name].tsx",
-    "hooks/useWindowSize.js"
+    "hooks/useWindowSize.js",
+    "components/confetti-btn.jsx"
   ],
   "exclude": ["node_modules"]
 }
