@@ -146,7 +146,9 @@ export default function Audience() {
         {/* triail Mode text outline */}
         <div className="py-10">
           <div className=" flex flex-col items-start px-10 ">
-            <p className="px-8 text-sm">This is an outline text</p>
+            <p className="px-8 text-sm">
+              This is an outline text fot testing purposes
+            </p>
             <div></div>
             <h1 className="text-outline px-2 font-PolySansBulky">
               Hello Julius
