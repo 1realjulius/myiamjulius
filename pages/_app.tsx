@@ -1,4 +1,8 @@
 import "../styles/globals.css";
+import "../styles/social-tooltips.css";
+import "../styles/custom-btns.css";
+import "../styles/confetti-btn.scss";
+
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import NavMenu from "../components/nav-menu";
@@ -18,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             href="/"
             className="relative h-[40px] w-[40px] object-contain md:h-[48px] md:w-[48px]"
           >
-            <h1 className="text-2xl text-[#828282] hover:underline  hover:decoration-[#828282] md:text-3xl">
+            <h1 className="font-PolySansBulky text-2xl text-[#828282] hover:underline hover:decoration-[#828282] md:text-3xl">
               iamjulius
             </h1>
           </Link>

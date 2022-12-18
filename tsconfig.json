@@ -22,6 +22,6 @@
     "pages/Projects/[name].tsx",
     "hooks/useWindowSize.js",
     "components/confetti-btn.jsx"
-  ],
+, "components/confetti-btn.js"  ],
   "exclude": ["node_modules"]
 }

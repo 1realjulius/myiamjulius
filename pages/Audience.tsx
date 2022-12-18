@@ -191,13 +191,15 @@ export default function Audience() {
           </div>
         </div>
         {/* custom btns */}
-        <div>
+        <div className="hidden">
           <CustomBtns />
         </div>
         {/* socil tooltips */}
         <div>
           <SocialTooltips />
         </div>
+        {/* confetti btn */}
+        <div></div>
       </div>
       <div>
         <Footer />

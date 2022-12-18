@@ -56,6 +56,11 @@ export default function Footer() {
                   </Link>
                 </span>
                 <span>2022.</span>
+                <span>
+                  <Link href="/Audience" className="px-2 hover:underline">
+                    Hidden - Designs
+                  </Link>
+                </span>
               </h1>
             </div>
           </div>

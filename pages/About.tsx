@@ -298,6 +298,11 @@ export default function About() {
                     </Link>
                   </span>
                   <span>2022.</span>
+                  <span className="px-2">
+                    <Link href="/Audience" className="hover:underline">
+                      Hidden - Designs
+                    </Link>
+                  </span>
                 </h1>
               </div>
             </div>

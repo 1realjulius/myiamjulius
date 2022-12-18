@@ -1,4 +1,3 @@
-import "../styles/confetti-btn.scss";
 
 export default function ConfettiBtn() {
 
