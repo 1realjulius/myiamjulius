@@ -8,6 +8,7 @@ import myPicture from "../public/Assets/img/me/Julius_Eghan.jpg";
 import memojiStand from "../public/Assets/img/me/Memoji-Stand.png";
 import memojicall from "../public/Memoji-Call.png";
 import { motion } from "framer-motion";
+import Copytext from "./copyright-component";
 
 export default function MainHome() {
   const Projects = [
@@ -226,16 +227,8 @@ export default function MainHome() {
             <div className=" inset-0 z-40 flex flex-col font-PolySansNeutral">
               <div className="flex flex-row items-center justify-between px-4 py-2">
                 <div className="">
-                  <h1 className="flex flex-row items-center text-gray-500">
-                    <span className="text-xl leading-none">©</span>
-                    <span>
-                      <Link href="https://twitter.com/iamjulius_e">
-                        <span className="text-black hover:text-[#1D9BF0]">
-                          Julius Baffour Eghan
-                        </span>
-                      </Link>
-                    </span>
-                    <span>2022.</span>
+                  <h1>
+                    <Copytext />
                   </h1>
                 </div>
               </div>

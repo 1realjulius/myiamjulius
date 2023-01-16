@@ -7,6 +7,7 @@ import ParallaxText from "../components/paralaxScroll";
 import myPicture from "../public/Assets/img/me/Julius_Eghan.jpg";
 import memojicall from "../public/Memoji-Call.png";
 import behanceLogo from "../public/Assets/img/behance-logo.svg";
+import Copytext from "../components/copyright-component";
 
 export default function About() {
   const WorkNumbers = [
@@ -288,21 +289,11 @@ export default function About() {
           <div className=" inset-0 z-40 flex flex-col font-PolySansNeutral">
             <div className="flex flex-row items-center justify-between px-4 py-2">
               <div className="">
-                <h1 className="flex flex-row items-center text-gray-500">
-                  <span className="text-xl leading-none">©</span>
-                  <span>
-                    <Link href="https://twitter.com/iamjulius_e">
-                      <span className="text-black hover:text-[#1D9BF0]">
-                        Julius Baffour Eghan
-                      </span>
-                    </Link>
-                  </span>
-                  <span>2022.</span>
-                  <span className="px-2">
-                    <Link href="/Audience" className="hover:underline">
-                      Hidden - Designs
-                    </Link>
-                  </span>
+                <h1 className="flex space-x-2">
+                  <Copytext />
+                  <Link href="/Audience" className="hover:underline">
+                    Hidden - Designs
+                  </Link>
                 </h1>
               </div>
             </div>
