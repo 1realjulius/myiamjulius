@@ -159,7 +159,7 @@ export default function NavMenu() {
                         {/* Contact Link */}
                         <div>
                           <Link
-                            href="https://blog.iamjulius.com"
+                            href="#"
                             onClick={hideMenu}
                             className="text-[#828282]/70 hover:text-black"
                           >

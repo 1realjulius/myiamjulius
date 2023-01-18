@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center font-PolySansNeutral">
       <Head>
-        <title>Julius B. Eghan</title>
+        <title>Julius Eghan</title>
         <meta
           name="description"
           content="Website and Software Developer from Ghana."
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <meta property="og:url" content="https://www.iamjulius.com/" />
         <meta
           property="og:title"
-          content="Julius B. Eghan — Website and Software Developer"
+          content="Julius Eghan — Website and Software Developer"
         />
         <meta
           property="og:description"
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <meta property="twitter:url" content="https://www.iamjulius.com/" />
         <meta
           property="twitter:title"
-          content="Julius Baffour Eghan — Website and Software Developer"
+          content="Julius Eghan — Website and Software Developer"
         />
         <meta
           property="twitter:description"

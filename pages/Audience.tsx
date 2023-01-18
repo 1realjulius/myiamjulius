@@ -1,10 +1,18 @@
-import { motion } from "framer-motion";
 import Head from "next/head";
+import Image from "next/image";
 import { useState } from "react";
+import { motion } from "framer-motion";
+
 import CustomBtns from "../components/custom-btns";
 import SocialTooltips from "../components/custom-social-tootips";
 import Footer from "../components/footer-section";
 import MainHeader from "../components/header-section";
+import ParallaxText from "../components/paralaxScroll";
+
+import ParaImg from "../public/Assets/img/me/Julius_Eghan.jpg";
+import ParaImg1 from "../public/Assets/img/me/loising.jpg";
+import ParaImg2 from "../public/Assets/img/me/mark.png";
+import ParaImg3 from "../public/Assets/img/me/wedseries.jpg";
 
 export default function Audience() {
   const [submitbtn, setSubmitBtn] = useState("Submit");
@@ -200,6 +208,35 @@ export default function Audience() {
         </div>
         {/* confetti btn */}
         <div></div>
+        {/* parrallax Image with links */}
+        <div>
+          <div className="border-t-[3px] py-2 md:py-4">
+            <ParallaxText baseVelocity={0.5}>
+              <div className="flex select-none flex-row space-x-8 px-4 text-[#828282]/40 md:space-x-16 md:px-6">
+                <div className="w-60">
+                  <a href="#1">
+                    <Image alt="" src={ParaImg} />
+                  </a>
+                </div>
+                <div className="w-60">
+                  <a href="#2">
+                    <Image alt="" src={ParaImg1} />
+                  </a>
+                </div>
+                <div className="w-60">
+                  <a href="#3">
+                    <Image alt="" src={ParaImg2} />
+                  </a>
+                </div>
+                <div className="w-60">
+                  <a href="#4">
+                    <Image alt="" src={ParaImg3} />
+                  </a>
+                </div>
+              </div>
+            </ParallaxText>
+          </div>
+        </div>
       </div>
       <div>
         <Footer />
